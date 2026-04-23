@@ -4,8 +4,7 @@ Inside the folder, it included both the implement and the cooperative multi-agen
 
 
 ## 2. Installation
-
- Here we give an example installation on CUDA == 10.1. For non-GPU & other CUDA version installation, please refer to the [PyTorch website](https://pytorch.org/get-started/locally/). We remark that this repo. does not depend on a specific CUDA version, feel free to use any CUDA version suitable on your own computer.
+Install the following packages
 
 ``` Bash
 # create conda environment
@@ -13,9 +12,6 @@ conda create -n marl python==3.8
 conda activate marl
 conda install pytorch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 pytorch-cuda=12.1 -c pytorch -c nvidia
 pip install wandb
-```
-
-```
 git clone https://github.com/Chen4513/Reimplement-of-MAPPO-in-multi-agent-benchmark.git
 cd Reimplement-of-MAPPO-in-multi-agent-benchmark
 pip install -r requirements.txt
