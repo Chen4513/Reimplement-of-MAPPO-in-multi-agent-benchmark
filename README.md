@@ -45,6 +45,7 @@ There are 2 Cooperative scenarios in MPE:
 Here we train mpe environment as an example:
 ```
 cd onpolicy/scripts/train_mpe_scripts
+export WANDB_MODE=offline
 chmod +x ./train_mpe_spread.sh
 ./train_mpe_spread.sh
 ```
